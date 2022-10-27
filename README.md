@@ -34,7 +34,9 @@ Data can be viewed.
 The button delete will be used to delete all the read from the file
 
 ## Device 
-The worflow will have type into activities that will allow automatic type in of Device name and status on the web and category name and zone will be selected navigating to the ones thata have been creates. If the status from excel file is not active  
+The worflow will have type into activities that will allow automatic type in of Device name and status on the web and category name and zone will be selected navigating to the ones thata have been creates. If the status from excel file is True, active button will be checked and if it is false it will be checked.The create button will add the read data to the device data on the web
+
+View and Update will used to verify data and make changes where needed. Once Data the data is no longer needed the deleted will used to clear records for the device data.
 
 
 
