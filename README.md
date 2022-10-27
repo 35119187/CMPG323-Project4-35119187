@@ -1,26 +1,45 @@
 # CMPG323-Project4-35119187
-# Robotic Process Automation
+
+## Robotic Process Automation
 
 #Project Structure
 The Project will consists of Five Workflows.
 Namely:
 
-Main
-Login
-Zone 
-Category
-Device
+<li>Main</li>
+<li>Login</li>
+<li>Zone</li>
+<li>Category</li>
+<li>Device</li>
 
-## Main Workf
+## Main Workflow
+-The workflow will invoke the Activities from other workflows, to execute them sequentially.
 
 ## Login workflow
-The Login workflow will contain user credentials to web, that will be saved for later access.
-The user details will consists of:
-The Username and Password
+The workflow will allow the login button to be clicked and allow for login details to be automatically prompted, the login details will be saved for future uses
 
-## Zone Workflo
+## Zone Workflow
+The Zone Workflow will read data from the provided excel file from sheet zone, to the Zone cases in the web. After the Reading have done the data will be created automatically using the create button.
 
-In the Zone Workflow, the data will be captured from Excel provided file using Read Range to read all data from zone sheet, to the d
+Data read from will edited based on the zone description and be updated to the zone data.
+Data can be viewed.
+
+The button delete will be used to delete all the read from the file
+
+## Category
+The Category Workflow will read data from the provided excel file from sheet Category, to the Category cases in the web. After the Reading have done the data will be created automatically using the create button.
+
+Data read from will edited based on the Category description and be updated to the Category data.
+Data can be viewed.
+The button delete will be used to delete all the read from the file
+
+## Device 
+The worflow will have type into activities that will allow automatic type in of Device name and status on the web and category name and zone will be selected navigating to the ones thata have been creates. If the status from excel file is not active  
+
+
+
+
+
 
 
 
