@@ -1,0 +1,21 @@
+## Ignore Uipath folders
+
+.[Ll]ocal/
+.[Tt]mh/
+.[Oo]bjects/
+.[Pp]roject/
+.[Tt]emplate/
+.[Ee]ntities/
+.[Ss]ettings/
+
+## Ignore build results
+
+[Dd]ebug/
+[Dd]esign/
+[Rr]elease/
+[Dd]b/
+
+##Ignore the generated files
+*.json
+*.Metadata
+*.type
